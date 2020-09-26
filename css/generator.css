@@ -1,0 +1,42 @@
+.input-group-text {
+    width: 90px;
+}
+.input-group-text {
+    color: #17a2b8;
+}
+.input-group-text, .form-control {
+    border: 1px solid #17a2b8;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color:#e2e3e5;
+    font-weight: bold;
+    border: 1px solid #17a2b8;
+    background-clip: unset;
+}
+.confirmation.btn {
+    padding: 5px 15px;
+    border-radius: 7px;
+    position: absolute;
+    display: none;
+    bottom: 26px;
+    left: 30px;
+  }
+#buat, #input2 {
+    display: none;
+}
+  .all-input pre {
+    background: #f5f5f5;
+    padding: 15px;
+    cursor: text;
+    font-size: 14px;
+    color: #000;
+    max-height: 420px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.all-input pre::-webkit-scrollbar {
+  display: none;
+}
+#results {
+    display: none
+}

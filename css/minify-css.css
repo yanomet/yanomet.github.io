@@ -1,0 +1,41 @@
+.cssmin-in {
+    height: 361px !important;
+    float: left;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+
+.cssmin-out {
+    height: 361px !important;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2px;
+}
+
+
+textarea {
+    width: 99%;
+    height: 357px;
+    border: none;
+    resize: none;
+}
+
+
+.minify {
+    margin: 2%;
+}
+
+.beautify {
+    margin: 2%;
+}
+
+.card-body button.btn {
+    margin: 15px auto;
+    width: 100%;
+}
+
+.card-body textarea {
+    background: #f8f9fc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
