@@ -1,5 +1,5 @@
 var Base64 = {
-  _keyStr: "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfgh+/=jklzxcvbnm1234567890",
+  _keyStr: "QWERT0UIOPASHFGDJKLZXCVBNMqwertyuiopasdfgh+/=jklzxcvbnm123456789Y",
   encode: function (input) {
     var output = "";
     var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
@@ -109,7 +109,7 @@ var Base64 = {
       console.log("CLIENT URL : "+url.hostname);
   ///
   const stringToInt = str => 
-    Array.prototype.slice.call(str).reduce((result, char, index) => result += char.charCodeAt() * (97543265689999*(str.length - index)), 0);
+    Array.prototype.slice.call(str).reduce((result, char, index) => result += char.charCodeAt() * (987654*(str.length - index)), 0);
     var final = stringToInt(domain);
       console.log("USER ID : "+final);
       $('.uuid').text(final);
